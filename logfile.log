@@ -1,0 +1,22 @@
+2020-02-15 19:54:08 INFO  TestBase:20 - Opening url http://prestashop-automation.qatestlab.com.ua/ru/
+2020-02-15 19:54:09 INFO  TestBase:22 - Main page is downloaded
+2020-02-15 19:54:09 INFO  MainPage:19 - Clicking button currencySelector
+2020-02-15 19:54:09 INFO  MainPage:21 - Changing currency type to USD
+2020-02-15 19:54:10 INFO  MainPage:42 - Verifying currency type
+2020-02-15 19:54:10 INFO  MainPage:69 - true, prices shown in USD
+2020-02-15 19:54:10 INFO  MainPage:79 - Typing word 'dress'
+2020-02-15 19:54:11 INFO  MainPage:82 - Button 'submit' is pressed
+2020-02-15 19:54:11 INFO  MainPage:83 - Showing SearchPage
+2020-02-15 19:54:11 INFO  SearchPage:31 - Label Товаров: 7. is displayed and shows the correct quantity of products
+2020-02-15 19:54:12 INFO  SearchPage:41 - Verifying currency of found products
+2020-02-15 19:54:12 INFO  SearchPage:68 - true, prices shown in USD
+2020-02-15 19:54:12 INFO  SearchPage:77 - Changing sorting method
+2020-02-15 19:54:12 INFO  SearchPage:83 - Sorting method changed
+2020-02-15 19:54:13 INFO  SearchPage:91 - Checking sorting method HIGH TO LOW
+2020-02-15 19:54:13 INFO  SearchPage:96 - Sorting method is HIGH TO LOW
+2020-02-15 19:54:13 INFO  SearchPage:114 - Label exists-5%
+2020-02-15 19:54:13 INFO  SearchPage:114 - Label exists-20%
+2020-02-15 19:54:13 INFO  SearchPage:123 - For products with a discount, a percentage discount is indicated along with the price before and after the discount
+2020-02-15 19:54:13 INFO  SearchPage:153 - Product №1 really has -5%(0.06) discount.
+2020-02-15 19:54:13 INFO  SearchPage:153 - Product №2 really has -20%(0.15) discount.
+2020-02-15 19:54:13 INFO  TestBase:29 - Driver is closed
